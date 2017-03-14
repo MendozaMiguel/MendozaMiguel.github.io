@@ -33,8 +33,14 @@
   .barre #php{
     height: 16px;
   }
+  #php .pourcentage{
+    display: none;
+  }
   .barre #mysql{
     height: 16px;
+  }
+  #mysql .pourcentage{
+    display: none;
   }
   .barre #bootstrap{
     height: 16px;
@@ -42,6 +48,20 @@
   .barre #wordpress{
     height: 16px;
   }
+
+  /*modif pourcentage*/
+  .barre .pourcentage{
+    padding-right: 5px;
+    animation: percentTextmedia 4s ;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes percentTextmedia{
+    0% {opacity: 0;}
+    60%{opacity: 1;}
+    100%{opacity: 1;}
+  }
+
   /*--------FIN LANGAGE WEB-----------*/
 
   /*---------LANGUES PARLER---------*/

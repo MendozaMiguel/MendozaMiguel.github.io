@@ -44,27 +44,6 @@
     width: 60%;
   }
 }
-
-
-#jQuery {
-  animation: Animate-jQuery 2.6s;
-  position: relative;
-
-  width: 40%;
-  height: 46px;
-  background-color: rgb(0, 0, 0);
-}
-
-@keyframes Animate-jQuery {
-  from {
-    width: 10px;
-  }
-  to {
-    width: 40%;
-  }
-}
-
-
 #js {
   animation: Animate-JS 3.8s;
   animation-iteration-count: infinite;
@@ -311,13 +290,13 @@
   text-shadow: none;
   color: #fff;
   font-size: 18px;
-  animation: percentText 4s;
-
+  animation: percentText 4s ;
+  animation-iteration-count: infinite;
 }
 
 @keyframes percentText{
   0% {opacity: 0;}
-  50%{opacity: 0;}
+  50%{opacity: 1;}
   100%{opacity: 1;}
 }
 
