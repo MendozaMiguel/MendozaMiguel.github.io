@@ -1,0 +1,93 @@
+@media only screen and (max-width: 500px) {
+  .textecentre h1 {
+    font-size: 16px;
+  }
+  .bouton1 p{
+    font-size: 12px;
+  }
+  .barre .langage{
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: 6px;
+  }
+  .barre .pourcentage{
+    font-size: 10px;
+    margin-top: 4px;
+  }
+  .devweb .barre{
+    height: 20px;
+    margin: 10px auto;
+  }
+
+  /*--------LANGAGE WEB-----------*/
+  .barre #html{
+    height: 16px;
+  }
+
+  .barre #css{
+    height: 16px;
+  }
+  .barre #js{
+    height: 16px;
+  }
+  .barre #php{
+    height: 16px;
+  }
+  .barre #mysql{
+    height: 16px;
+  }
+  .barre #bootstrap{
+    height: 16px;
+  }
+  .barre #wordpress{
+    height: 16px;
+  }
+  /*--------FIN LANGAGE WEB-----------*/
+
+  /*---------LANGUES PARLER---------*/
+  .langues   .barre{
+    height: 20px;
+    margin: 10px auto;
+  }
+  .barre #esp{
+    height: 16px;
+  }
+  .barre #en{
+    height: 16px;
+  }
+  .barre #fr{
+    height: 16px;
+  }
+  /*---------FIN LANGUES PARLER---------*/
+
+
+  /*--------LOGICIEL-----------*/
+  .logiciel .barre{
+    height: 20px;
+    margin: 10px auto;
+  }
+  .barre #microsoft{
+    height: 16px;
+    }.barre #atom{
+      height: 16px;
+      }.barre #notepad{
+        height: 16px;
+        }.barre #sublimetext{
+          height: 16px;
+          }.barre #uwamp{
+            height: 16px;
+          }
+          /*--------FIN LOGICIEL-----------*/
+
+          .apropos{
+            height: auto;
+            border-right: none;
+          }
+          .apropos p{
+            text-align: center;
+          }
+          .responsabilite{
+            height: auto;
+          }
+
+        }

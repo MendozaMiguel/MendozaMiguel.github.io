@@ -1,0 +1,363 @@
+body{
+  /*background-color: black;*/
+}
+
+/*MODIF NAV*/
+
+
+.collapse{
+  background-color: white;
+}
+.navbar-inverse .navbar-nav li a {
+  color: black;
+}
+.navbar-inverse .navbar-nav li a:hover {
+  color: white;
+}
+.navbar-inverse .navbar-nav li{
+  background-color: white;
+}
+.navbar-inverse .navbar-nav li:hover{
+  background-color: black;
+}
+.navbar-inverse .navbar-brand {
+  color: black;
+  background-color: white;
+}
+.navbar-inverse .navbar-brand:hover {
+  color: white;
+  background-color: black;
+}
+
+/*FIN MODIF NAV*/
+
+/*-------------------------FIRST PAGE---------------------*/
+
+/*BACKGROUND TOP*/
+.arriere{
+  /*background-image: url(images/test.jpeg);*/
+  background-image: url(../gallery/background.jpg);
+  /*background-size: cover;*/
+  background-size: 100% 100%;
+  /*background-position: center;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*height: 100vh;
+  max-width: 100%;*/
+  /*opacity: 0.85;*/
+  /*filter: opacity(0.95);*/
+  /*filter: brightness(75%);*/
+}
+/*FIN BACKGROUND TOP*/
+
+.vide50{
+  height: 66vh;
+}
+
+.textecentre{
+  background-color: rgba(99, 99, 99, 0.39);
+}
+
+.textecentre h1{
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+.bouton1{
+  background-color: transparent;
+  border: 5px solid white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bouton1 a{
+  text-decoration: none;
+}
+.bouton1 p{
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+  margin: 0px;
+}
+.bouton1:hover{
+  background-color: white;
+}
+.bouton1 p:hover{
+  color: black;
+  font-weight: bold;
+}
+.bouton1 a:hover{
+  text-decoration: none;
+}
+.bouton{
+  background-color: transparent;
+  border: 5px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bouton a{
+  text-decoration: none;
+}
+.bouton p{
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: black;
+  margin: 0px;
+  font-family: 'Oswald', sans-serif;
+}
+.bouton:hover{
+  background-color: black;
+}
+.bouton p:hover{
+  color: white;
+  font-weight: bold;
+}
+.bouton a:hover{
+  text-decoration: none;
+}
+
+/*-------------------------FIN FIRST PAGE---------------------*/
+
+/*------------------------DEUXIEME PAGE----------------------*/
+
+/*PARTIE GAUCHE*/
+.apropos{
+  height: 95vh;
+  background-color: red;
+  border-top: 2px solid white;
+  border-right: 2px solid black;
+}
+.apropos h1{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.apropos .bouton p{
+  font-size: 15px;
+}
+/*FIN PARTIE GAUCHE*/
+
+/*PARTIE DROITE*/
+.responsabilite{
+  height: 95vh;
+  border-top: 2px solid white;
+  background-color: white;
+}
+.responsabilite h1{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.flexbox{
+  display: flex;
+  flex-wrap: wrap;
+  /*align-items: center;*/
+  justify-content:center;
+}
+.box{
+  border: 2px solid black;
+  background-color: transparent;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.apropos{
+  height: 95vh;
+  background-color: white;
+  border-top: 2px solid white;
+  border-right: 2px solid black;
+}
+.box:hover{
+  background-color: black;
+  border: 2px solid white;
+}
+.box p{
+  text-align: center;
+  margin-bottom: 0;
+  padding: 4px;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+.box p:hover{
+  color: white;
+}
+
+.vide20{
+  height: 20vh;
+  background-color: green;
+}
+
+.alignement{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: black;
+}
+.sport img{
+  height: 80px;
+  width: 80px;
+}
+/*FIN PARTIE DROITE*/
+
+.text2 p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+}
+
+/*------------------------DEUXIEME PAGE----------------------*/
+
+
+/*--------------------TROISIEME PAGE-----------------------*/
+.competence{
+  /*height: 95vh;*/
+}
+.competence h1{
+  font-family: 'Oswald', sans-serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.titre h3{
+  font-family: 'Oswald', sans-serif;
+}
+/*------------------FIN TROISIEME PAGE---------------------*/
+
+/*-----------------------4EME PAGE PROJET------------------------*/
+.projet{
+  padding: 20px;
+}
+.projet h1{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.imagesflex img{
+  height: 44vh;
+  width: 100%;
+  /*margin-top: 10px;*/
+}
+
+.liens_images img{
+  border: 5px solid black;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 8px 10px 30px black;
+  position: relative;
+  transition: .3s ease-in-out;
+  margin-bottom: 10px;
+  }
+
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    }
+
+    .overlay {
+      position: absolute;
+      text-align: center;
+      top: 0;
+      left: 15px;
+      height: 44vh;
+      border-radius: 5px;
+      width: 95%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: black;
+      }
+
+      .overlay:hover{
+        opacity: 0.8;
+        }
+
+        .bordure{
+          height: 40vh;
+          width: 90%;
+          border:5px solid white;
+          z-index: 2;
+          margin:12px  auto;
+        }
+        /*.imagesflex{
+        display: flex;
+        justify-content: space-around;
+        }*/
+
+        /*-----------------------FIN 4EME PAGE PROJET------------------------*/
+
+
+
+        /*-----------------------PAGE CONTACT-------------------------*/
+        .contact h1{
+          /*text-align: center;*/
+          font-family: 'Oswald', sans-serif;
+          text-decoration: underline;
+          text-transform: uppercase;
+        }
+        form {
+
+          /*background: white;*/
+          padding: 20px 25px;
+          margin: auto;
+          margin-top: 30px;
+          /*box-shadow: 0px 1px 2px rgba(0,0,0,0.2);*/
+        }
+        form input,
+        form textarea {
+          font: inherit;
+          padding: 5px 5px;
+          margin-top: 3px;
+          margin-bottom: 15px;
+          box-sizing: border-box;
+          width: 100%;
+        }
+        form button {
+          border: 1px solid rgba(0,0,0,0.2);
+          padding: 8px 35px;
+          font-size: 12px;
+          background: #888;
+          color: white;
+          margin-bottom: 10px;
+        }
+        form label {
+          color: #777;
+          font-size: 11px;
+          margin-bottom: 2px;
+          display: block;
+        }
+        textarea{
+          width: 100%;
+        }
+        /*-----------------------FIN PAGE CONTACT-------------------------*/
+
+        /*-----------------------PARTIE FOOTER----------------------------*/
+        .icons{
+          display: flex;
+          justify-content: center;
+          margin-top: 20px;
+        }
+        .icons i{
+          margin-right: 10px;
+        }
+        .copyright{
+          text-align: center;
+        }
+        .fa-github-square{
+          color: black;
+        }
+        .fa-github-square:hover{
+          color: rgb(99, 57, 131);
+        }
+
+        /*-----------------------FIN PARTIE FOOTER----------------------------*/

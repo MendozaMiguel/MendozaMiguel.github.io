@@ -1,0 +1,326 @@
+.barre {
+  width: 90%;
+  height: 50px;
+  background: rgba(17, 17, 17, .3);
+  margin: 20px auto;
+  border: 2px solid white;
+}
+
+/*--------ANIMATION COMPETENCE INFO WEB------------*/
+
+
+/*---------------------------------LANGAGES PROGRAMMATION--------------------------*/
+#html {
+  width: 60%;
+  height: 46px;
+  position: relative;
+  animation: Animate-HTML 4s;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+
+#css {
+  animation: Animate-CSS 4s;
+  position: relative;
+
+  width: 60%;
+  height: 46px;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+
+
+#jQuery {
+  animation: Animate-jQuery 2.6s;
+  position: relative;
+
+  width: 40%;
+  height: 46px;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes Animate-jQuery {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+
+
+#js {
+  animation: Animate-JS 3.8s;
+  animation-iteration-count: infinite;
+  position: relative;
+  width: 100%;
+  height: 46px;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 100%;
+  }
+}
+#wordpress {
+  animation: Animate-wordpress 3.8s;
+  position: relative;
+  width: 50%;
+  height: 46px;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes Animate-wordpress {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+#bootstrap {
+  animation: Animate-bootstrap 3.8s;
+  position: relative;
+  width: 40%;
+  height: 46px;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes Animate-bootstrap {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+#mysql {
+  animation: Animate-mysql 3.8s;
+  position: relative;
+  width: 20%;
+  height: 46px;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes Animate-mysql {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 20%;
+  }
+}
+#php {
+  animation: Animate-php 3.8s;
+  position: relative;
+  width: 20%;
+  height: 46px;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes Animate-php {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 20%;
+  }
+}
+/*---------------------------------FIN LANGAGE PROGRAMMATION-----------------------------*/
+
+/*------------------------------------PARTIE LOGICIEL WEB---------------------------*/
+#microsoft {
+  width: 70%;
+  height: 46px;
+  position: relative;
+  animation: Animate-microsoft 4s;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes Animate-microsoft {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+#atom {
+  width: 80%;
+  height: 46px;
+  position: relative;
+  animation: Animate-atom 4s;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes Animate-atom {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+#notepad {
+  width: 70%;
+  height: 46px;
+  position: relative;
+  animation: Animate-notepad 4s;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes Animate-notepad {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+#sublimetext {
+  width: 60%;
+  height: 46px;
+  position: relative;
+  animation: Animate-sublimetext 4s;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes Animate-sublimetext {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+
+#uwamp {
+  width: 50%;
+  height: 46px;
+  position: relative;
+  animation: Animate-uwamp 4s;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes Animate-uwamp {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+/*-----------------------------FIN PARTIE LOGICIEL WEB--------------------------------*/
+
+/**--------------------ESPACE LANGUES PARLE-----------------------*/
+#esp {
+  width: 100%;
+  height: 46px;
+  position: relative;
+  animation: Animate-esp 4s;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes Animate-esp {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 100%;
+  }
+}
+#fr {
+  width: 100%;
+  height: 46px;
+  position: relative;
+  animation: Animate-fr 4s;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes Animate-fr {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 100%;
+  }
+}
+#en {
+  width: 40%;
+  height: 46px;
+  position: relative;
+  animation: Animate-en 4s;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes Animate-en {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 40%;
+  }
+}
+/*--------------------FIN ESPACE LANGUES PARLE-------------------*/
+/*--------FIN ANIMATION COMPETENCE INFO WEB------------*/
+
+/*--------ANIMATION COMPETENCE LOGICIEL------------*/
+
+/*--------FIN ANIMATION COMPETENCE INFO WEB------------*/
+
+.langage {
+  z-index: 1;
+  text-shadow: none;
+  color: #fff;
+  font-size: 18px;
+  display: inline-block;
+  height: 50px;
+
+  position: absolute; /*Pour centrer le texte de .langage dans la barre de #html (et #css, etc.).*/
+  line-height: 50px;
+  margin-left: 20px;
+}
+
+.pourcentage {
+  z-index: 3;
+  opacity: 1;
+  padding-right: 15px;
+  margin-top: 15px;
+  float: right;
+  text-shadow: none;
+  color: #fff;
+  font-size: 18px;
+  animation: percentText 4s;
+
+}
+
+@keyframes percentText{
+  0% {opacity: 0;}
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.colorback{
+  background-color: rgba(166, 175, 176, 0.62)
+}
