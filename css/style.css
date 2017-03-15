@@ -28,6 +28,9 @@ body{
   color: white;
   background-color: black;
 }
+.navbar-nav ul .menucv{
+  color: yellow;
+}
 
 /*FIN MODIF NAV*/
 
