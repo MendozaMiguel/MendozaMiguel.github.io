@@ -5,6 +5,11 @@
   .bouton1 p{
     font-size: 12px;
   }
+  
+  .bouton1{
+  margin-top: 20px;
+  }
+  
   .barre .langage{
     font-size: 10px;
     line-height: 20px;
