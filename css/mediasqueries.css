@@ -100,7 +100,7 @@
           /*--------FIN LOGICIEL-----------*/
 
           .apropos{
-            height: 100vh;
+            height: auto;
             border-right: none;
           }
           .apropos p{
