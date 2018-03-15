@@ -5,12 +5,12 @@
   .bouton1 p{
     font-size: 12px;
   }
-  
+
   .bouton1{
   margin-top: 30px;
   margin-bottom: 0px;
   }
-  
+
   .arriere{
    height:100vh;
   }
@@ -54,7 +54,19 @@
   .barre #bootstrap{
     height: 16px;
   }
-  .barre #wordpress{
+  .barre #python{
+    height: 16px;
+  }
+  .barre #mongo-db{
+    height: 16px;
+  }
+  .barre #sas{
+    height: 16px;
+  }
+  .barre #R{
+    height: 16px;
+  }
+  .barre #PostgreSQL{
     height: 16px;
   }
 
@@ -97,15 +109,28 @@
   }
   .barre #microsoft{
     height: 16px;
-    }.barre #atom{
-      height: 16px;
-      }.barre #notepad{
-        height: 16px;
-        }.barre #sublimetext{
-          height: 16px;
-          }.barre #uwamp{
-            height: 16px;
-          }
+  }
+  .barre #atom{
+    height: 16px;
+  }
+  .barre #notepad{
+    height: 16px;
+  }
+  .barre #sublimetext{
+    height: 16px;
+  }
+  .barre #uwamp{
+    height: 16px;
+  }
+  .barre #Anaconda{
+    height: 16px;
+  }
+  .barre #Jupyter{
+    height: 16px;
+  }
+  .barre #Pyzo{
+    height: 16px;
+  }
           /*--------FIN LOGICIEL-----------*/
 
           .apropos{
