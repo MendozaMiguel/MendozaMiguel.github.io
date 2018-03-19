@@ -32,8 +32,13 @@
   .barre #html{
     height: 16px;
   }
-
   .barre #css{
+    height: 16px;
+  }
+  .barre #wordpress{
+    height: 16px;
+  }
+  .barre #bootstrap{
     height: 16px;
   }
   .barre #js{
@@ -50,9 +55,6 @@
   }
   #mysql .pourcentage{
     display: none;
-  }
-  .barre #bootstrap{
-    height: 16px;
   }
   .barre #python{
     height: 16px;
