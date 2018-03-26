@@ -135,15 +135,13 @@
   }
           /*--------FIN LOGICIEL-----------*/
 
-          .apropos{
-            height: auto;
-            border-right: none;
-          }
-          .apropos p{
-            text-align: center;
-          }
-          .responsabilite{
-            height: auto;
-          }
-
-        }
+.apropos{
+height: auto;
+border-right: none;
+}
+.apropos p{
+text-align: center;
+}
+.responsabilite{
+height: auto;
+}
