@@ -38,6 +38,7 @@
   .barre #wordpress{
     height: 16px;
   }
+  
   .barre #bootstrap{
     height: 16px;
   }
@@ -144,4 +145,5 @@ text-align: center;
 }
 .responsabilite{
 height: auto;
+}
 }
